@@ -8,6 +8,13 @@
 body{
     background: #2E333A;
 }
+.btn{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+}
 .py-4 {
     padding-top: 13rem !important;
     padding-bottom: 4rem !important;
@@ -185,83 +192,4 @@ flex-shrink: 0;
     font-style: normal;
     font-weight: 500;
     line-height: 130%; 
-}
-.formSection {
-    z-index: 2;
-    position: relative;
-}
-.formTitle {
-    font-weight: 900;
-    font-size: 2rem;
-    text-align: center;
-    padding: 4rem 0;
-}
-.formDiv {
-    width: 50rem;
-    border-radius: 25px;
-    background: #2E333A;
-    box-shadow: -7px -7px 30px 0px #262E32, 14px 14px 40px 0px rgba(16, 16, 18, 0.75);
-    color: #0ED2F6;
-}
-form {
-    padding: 2rem 0 2rem 4rem;
-}
-form>div{
-    margin: 10px;
-    align-items:center ;
-}
-.formElement>label {
-    font-size: 1.3rem;
-}
-.formElement>select{
-    height: 3rem;
-    width: 96%;
-    outline: none;
-    border: none;
-    box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000, -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451 !important;
-}
-.formElement>input{
-    width: 90%;
-    height: 2rem;
-}
-.formElement>input, .formElement>select ,.formElement>textarea {
-    color: #fff;
-    font-size: 1rem;
-    background-color: #3B4451;
-    
-    margin: 8px;
-    padding: 8px;
-    border-radius: 10px;
-    background: var(--dark-colour, #2E333A);
-    border: none;
-    box-shadow: 3.7338130474090576px 3.7338130474090576px 6.223021507263184px 0px #000 inset, -6.223021507263184px -6.223021507263184px 6.223021507263184px 0px #3B4451 inset;
-}
-.formElement>input:focus, .formElement>select:focus,.formElement>textarea:focus{
-    outline: none;
-    border: none;
-}
-form>a {
-    color: var(--secondary-blue-light-1, #72E4F9);
-    font-family: Poppins;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 130%;
-    text-decoration-line: underline;
-}
-.btnSubmit{
-    display: flex;
-    justify-content: center;
-}
-.btnSubmit>button {
-    color: var(--secondary-blue, #0ED2F6);
-    font-family: Poppins;
-    font-size: 27px;
-    font-weight: 600;
-    line-height: 130%;
-    border-radius: 12px;
-    border: 1px solid #0ED2F6;
-    background: #2E333A;
-    padding: 10px 40px;
-    box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000, -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
 }
