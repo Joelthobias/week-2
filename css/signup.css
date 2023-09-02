@@ -17,7 +17,7 @@
     color: #0ED2F6;
 }
 form {
-    padding: 2rem 0 2rem 4rem;
+    padding: 2rem 1rem 2rem 1rem;
 }
 form>div{
     margin: 10px;
@@ -53,6 +53,10 @@ form>div{
     outline: none;
     border: none;
 }
+textarea {
+    width: 100%;
+    height: 7rem;
+}
 form>a {
     color: var(--secondary-blue-light-1, #72E4F9);
     font-family: Poppins;
@@ -60,7 +64,7 @@ form>a {
     font-style: normal;
     font-weight: 500;
     line-height: 130%;
-    text-decoration-line: underline;
+    text-decoration-line: none;
 }
 .btnSubmit{
     display: flex;
@@ -70,7 +74,6 @@ form>a {
     color: var(--secondary-blue, #0ED2F6);
     font-family: Poppins;
     font-size: 27px;
-    font-weight: 600;
     line-height: 130%;
     border-radius: 12px;
     border: 1px solid #0ED2F6;

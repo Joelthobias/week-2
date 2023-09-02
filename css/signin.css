@@ -55,11 +55,11 @@ form>div{
 form>a {
     color: var(--secondary-blue-light-1, #72E4F9);
     font-family: Poppins;
-    font-size: 1rem;
+    font-size: .8rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 130%;
-    text-decoration-line: underline;
+    line-height: 150%;
+    text-decoration-line: none;
 }
 .btnSubmit {
     display: flex;
@@ -70,7 +70,6 @@ form>a {
     color: var(--secondary-blue, #0ED2F6);
     font-family: Poppins;
     font-size: 1.6875rem;
-    font-weight: 600;
     margin-left: -2rem;
     line-height: 130%;
     border-radius: 12px;

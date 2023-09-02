@@ -24,9 +24,14 @@ body{
 }
 .col-6{
     display: block;
-    width: 45%;
+    width: 50%;
 }
-
+.pl-3{
+    padding-left: 1.2rem;
+}
+.col-12{
+    width: 96%;
+}
 .nav {
     display: -webkit-box !important;
     padding: 15px 30px;
@@ -158,10 +163,9 @@ p.txt3 {
 }
 .container {
     max-width: 1140px;
-    margin: 0 auto; 
-    padding: 0 20px;
+    margin: 0 auto;
+    padding: 0 5px;
 }
-
 .s1d3 {
     margin-top: 4rem;
     color: #fff;
