@@ -29,30 +29,34 @@ body{
 
 .nav {
     display: -webkit-box !important;
-    padding: 15px 80px;
+    padding: 15px 30px;
     background: #2E333A;
 }
 
 li>button{
     font-size: 1em;
 }
-.btnSign{
-    border-radius: 10px;
-    background: var(--dark-colour, #2E333A);
+.btnSign {
+    border-radius: 8px;
+    background: #2E333A;
     display: flex;
-    padding: 8px 14px;
-    justify-content: center;
+    padding: 5px 20px;
     align-items: center;
-    gap: 10px;
     color: #fff;
-    border: none;
-    /* NewM T Nav */
     box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000, -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
+    font-size: 14px;
+    margin-top: .5rem;
+}
+.btnVector {
+    border-radius: 8px;
+    background: #2E333A;
+    color: #fff;
+    box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000, -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
+    padding: 9px;
+    width: 40px;
 }
 .logo{
     margin-right: auto;
-    max-height: 60px;
-    max-width: 200px;
 }
 .logo>img{
     height: 60px;
@@ -64,7 +68,7 @@ li>button{
     display: inline-flex;
 }
 .inner>ul>li{
-    padding-right: 4em;
+    padding-right: 2rem;
 
 }
 
@@ -73,18 +77,20 @@ li>button{
     position: relative;
 }
 .s1d2 {
-    box-shadow: -7px -7px 30px 0px #1d2427, 14px 14px 40px 0px rgba(16, 16, 18, 0.75);
+    background-color: #2E333A;
+    box-shadow: -7px -7px 30px 0px #262E32;
+    box-shadow: 14px 14px 40px 0px #101012BF;
     border-radius: 25px;
-    width: 28rem;
+    width: 45%;
     padding: 32px;
     margin-left: 10rem;
-    /* position: relative; */
-    z-index: 1;
     padding-bottom: 3rem;
+    z-index: 1;
 }
-.txt1{
+.txt1 {
     color: #fff;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
 }
 .txt2{
     color: #fff;
@@ -92,7 +98,6 @@ li>button{
     padding-top: 2rem;
 }
 .cabtn{
-    font-weight: bold;
     color: var(--secondary-blue, #0ED2F6);
     background: #2E333A;
     border: 1px solid #0ED2F6;
@@ -107,14 +112,27 @@ li>button{
     margin-top: 2rem;
     margin-left: 2rem;
 }
-.profpics>ul>li>img {
-    width: 35px;
+.profpics>img {
+    width: 70px;
+    height: 61;
     margin-left: -10px;
     border-radius: 15px;
 }
-.profpics>ul{
-    list-style: none;
-    display: inline-flex;
+.gradient {
+    position: absolute;
+    width: 100%;
+    height: 1050px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0E0E0E 59.9%, rgba(14, 14, 14, 0) 100%);
+    z-index: 1;
+    margin-top: -12em;
+}
+.s1d1>img{
+    width: 1000px;
+    top: 9rem;
+    right: 0;
+    z-index: -1;
+    position: absolute;
+    /* height: 50%; */
 }
 p.txt3 {
     margin-top: .5rem;
@@ -124,34 +142,19 @@ p.txt3 {
 
 .screens{
     display: flex;
-}
-.img1{
-    background: url(../img/Dashboard.png), lightgray 50% / cover no-repeat;
-    width: 36.87594rem;
-height: 34.03931rem;
-transform: rotate(-45deg);
-flex-shrink: 0;
-}
-/* .imgs{
-    width: 136.52281rem;
-    flex-shrink: 0;
-    height: 66rem;
-} */
-.imgDash {
-    width: 590.015px;
-    height: 544.629px;
-    transform: rotate(-45deg);
+    top: 12rem;
     position: absolute;
-    top: 23.6rem;
-    right: -60px;
-    z-index: -1;
-    flex-shrink: 0;
+    z-index: -7;
 }
-.icon{
-    width: 28px;
-    height: 25.991px;
+.card{
+    margin-right: 1rem;
+}
+.icon {
+    width: 1.2rem;
+    height: 1.4rem;
     flex-shrink: 0;
-    fill: #0ED2F6;
+    fill: #02E4C0;
+    margin-right: 15px;
 }
 .container {
     max-width: 1140px;
@@ -162,34 +165,29 @@ flex-shrink: 0;
 .s1d3 {
     margin-top: 4rem;
     color: #fff;
+    max-width: 61%;
     background-color: transparent;
     display: flex;
     padding: 80px 20px 0 20px;
     justify-content: center;
     align-items: center;
-    position: sticky;
+    position: relative;
+    z-index: 1;
 }
-.shadow {
-    width: 100%;
-    height: 1255px;
-    /* z-index: -1; */
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #0E0E0E 28.65%, #292D33 73.96%, rgba(46, 51, 58, 0.50) 100%);
-    position: absolute;
-}
+
 .ctitle{
     display: flex;
     padding: 10px;
     align-items: center;
-    font: 1rem sans-serif;
-    font-weight: 500;
+    font: .9rem sans-serif;
+    font-weight: bold;
     line-height: 130%;
 }
-.cbody{
+.cbody {
     display: flex;
     padding: 10px;
     align-items: center;
-    font-size: .9rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 130%; 
+    font-size: 0.8rem;
+    font-weight: 100;
+    line-height: 130%;
 }
